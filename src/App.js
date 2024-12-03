@@ -43,14 +43,8 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Typography font="roboto" variant="h4" sx={{ fontFamily: 'Ubuntu'}}>
-            Merging Robotics and Biology
-          </Typography>
-          <Typography font="roboto" variant="body1" sx={{ fontFamily: 'Ubuntu', margin: '10px', maxWidth: '1000px'}}>
-            Unlocking low-cost neural microelectrode array development kits to accelerate research on intelligence, information processing and consciousness.
-          </Typography>
           <Box display="flex" justifyContent="center" alignItems="center">
-            <Button variant="outlined" color="primary" size="small" href="mailto:aydin@generalcybernetics.org"sx={{ margin: '5px' }}>
+            <Button variant="outlined" color="primary" size="small" href="mailto:aydin@generalcybernetics.org" sx={{ margin: '5px' }}>
               Get in touch
             </Button>
           </Box>
